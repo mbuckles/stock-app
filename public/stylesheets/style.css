@@ -1,0 +1,158 @@
+body {
+  font: 14px "Tauri", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  box-sizing: margin;
+}
+.market-title{
+  text-align: center;
+}
+h1 {
+  margin: 5px;
+  display: inline-block;
+}
+
+.small {
+  margin: 5px;
+  color: white;
+  display: inline-block;
+}
+
+#chart {
+  margin: 5px;
+  width: 100%;
+  height: 400px;
+  background: white;
+}
+
+.notice {
+  margin: 5px;
+  color: white;
+  text-align: center;
+  width: 100%;
+
+}
+
+#errors {
+  margin-left: 5px;
+  width: 100%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.remove {
+  color: #4d4d4d;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#submit {
+  color: #4D4D4D;
+}
+
+.company {
+  margin: 5px;
+  min-width: 140px;
+  background-color: white;
+  width: auto;
+  padding: 10px;
+  background: #fff;
+  color: #4d4d4d;
+  height: 75px;
+  position: relative;
+  border-left-width: 10px;
+  border-left-style: solid;
+  max-width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+
+.flex-container {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  -webkit-flex-wrap: wrap;
+       -msflex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-align-content: stretch;
+     -ms-flex-line-pack: stretch;
+          align-content: stretch;
+  -webkit-align-items: flex-start;
+       -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flex-item {
+  -webkit-flex: 0 1 auto;
+      -ms-flex: 0 1 auto;
+          flex: 0 1 auto;
+   -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+           align-self: auto;
+}
+
+.company-name {
+ position: relative;
+ display: block;
+ color: #4d4d4d;
+}
+
+form {
+  height: 75px;
+  color: #4d4d4d;
+  background-color: white;
+  padding: 10px;
+  vertical-align: center;
+  margin: 5px;
+}
+
+#symbol {
+  display: inline-block;
+  position: relative;
+  max-width: 100px;
+}
+.color0 {
+  border-left-color: #f72c25;
+}
+
+.color1 {
+  border-left-color: #0c0a00;
+}
+
+.color2 {
+  border-left-color: #79f725;
+}
+
+.color3 {
+  border-left-color: #4286f4;
+}
+
+.color4 {
+  border-left-color: #f7d025;
+}
+
+.color5 {
+  border-left-color: #f936d2;
+}
+
+.color6 {
+  border-left-color: #36e6f9;
+}
+
+.color7 {
+  border-left-color: #997d7d;
+}
